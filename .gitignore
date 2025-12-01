@@ -1,0 +1,14 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.vscode/
+
+# School non-code folders (ignored everywhere)
+**/Assignments/**
+**/Notes/**
+**/Screenshots/**
+**/Documents/**
+**/Drafts/**
+**/OrganizeLater/**
