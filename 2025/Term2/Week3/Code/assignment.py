@@ -28,6 +28,7 @@ def counting():  # checking for a positive number, or negative number, then call
 
 
 counting()
+counting()
 
 
 # Q2
@@ -40,4 +41,5 @@ def division(num1, num2):
         print(result)
 
 
+division(int(input("Enter numerator: ")), 0) #Forced ZeroDivisionError to show exception handling
 division(int(input("Enter numerator: ")), int(input("Enter denominator: ")))
