@@ -1,3 +1,4 @@
+# Q1
 def countdown(n):
     if n <= 0:
         print("Blastoff!")
@@ -21,7 +22,22 @@ def counting():  # checking for a positive number, or negative number, then call
     elif num > 0:
         countdown(num)
     else:
-        countdown(0)
+        countdown(
+            0
+        )  # Chose countdown just simply because it is the top level function.
 
 
 counting()
+
+
+# Q2
+def division(num1, num2):
+    try:
+        result = num1 / num2
+    except ZeroDivisionError:
+        print("Error: Division by zero is not allowed.")
+    else:
+        print(result)
+
+
+division(int(input("Enter numerator: ")), int(input("Enter denominator: ")))
